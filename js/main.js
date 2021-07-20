@@ -11,5 +11,9 @@ listaCognomi.push(cognome);
 console.log(listaCognomi);
 
 //3. stampa la lista ordinata alfabeticamente
-
+listaCognomi.sort()
+console.log(listaCognomi);
 //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
+
+var posizioneCognomeAggiunto = (listaCognomi.indexOf(cognome) +1);
+console.log(posizioneCognomeAggiunto);
