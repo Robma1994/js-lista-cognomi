@@ -1,8 +1,9 @@
 //Consegna:
 
 //1. chiedi all’utente il cognome.
-var cognome = prompt("Inserisci il tuo cognome");
 
+var cognome = prompt("Inserisci il tuo cognome");
+cognome = cognome[0].toUpperCase() + cognome.substring(1).toLocaleLowerCase();
 
 //2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
 
